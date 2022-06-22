@@ -6,8 +6,6 @@
     "types": [
       "vite/client",
       "@types/jest",
-      "cypress",
-      "@testing-library/cypress"
     ],
   },
   "include": ["vite.config.ts"]
