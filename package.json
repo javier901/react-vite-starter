@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll=true"
+    "test": "jest --watchAll=true",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@swc/core": "^1.2.204",
     "@swc/jest": "^0.2.21",
+    "@testing-library/cypress": "^8.0.3",
     "@testing-library/dom": "^8.14.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -23,6 +25,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "cypress": "^10.2.0",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "jest-watch-typeahead": "^1.1.0",
