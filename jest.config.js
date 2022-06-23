@@ -41,4 +41,5 @@ module.exports = {
       "jest-watch-typeahead/testname",
     ],
     resetMocks: true,
+    setupFilesAfterEnv: ["<rootDir>/config/jest/setupTests.ts"] 
   };
